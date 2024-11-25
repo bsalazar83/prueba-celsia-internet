@@ -104,23 +104,24 @@ Para el desarrollo de la prueba teórica, tendrás que escribir tus respuestas e
 
 2.1. Elabore un diagrama de componentes de la aplicación. Debe cargar el archivo en la siguiente ruta del repositorio: `./assets/diagrama.png`
 
-- RTA: <img src="./assets/diagrama.png" alt="Diagrama" width="400">
+- RTA: <img src="public/diagrama.png" alt="Diagrama" width="400">
 
   2.2. ¿Qué mecanismos de seguridad incluirías en la aplicación para garantizar la protección del acceso a los datos?
 
-- RTA:
+- RTA: Se debería incluir un método de autenticación para controlar las personas que manejan la información de los clientes, protección sobre la red de la persona encargada de gestionar el sistema, como VPN, y encriptamiento de datos.
 
   2.3. ¿Qué estrategia de escalabilidad recomendarías para la aplicación considerando que el crecimiento proyectado será de 1,000,000 de clientes por año?
 
-- RTA:
+- RTA: Alojamiento en un servidor robusto y escalable de acuerdo con las necesidades del programa, alojamiento en una base de datos que brinde la escalabilidad necesaria conforme pase el tiempo y aumente la carga del sistema. También recomendaría el uso de microservicios para que el sistema sea más fluido y pueda repartir la carga de todos sus procesos.
 
   2.4. ¿Qué patrón o patrones de diseño recomendarías para esta solución y cómo se implementarían? (Justifique)
 
-- RTA:
+- RTA: Modulando los procesos realizados y enfocándolos en microservicios para trabajarlos de manera paralela y facilitar la escalabilidad del producto, así como la incorporación de nuevas funcionalidades en caso de ser necesario.
 
   2.5. ¿Qué recomendaciones harías para optimizar el manejo y la persistencia de datos de la aplicación, teniendo en cuenta que esta aplicación tiene una alta transaccionalidad?
 
-- RTA:
+- RTA: Contar con una base de datos de alta disponibilidad y una estructura eficiente en las consultas y relaciones de las tablas para garantizar un bajo costo en procesamiento para el manejo de los datos.
+
 
 # 3. Redes
 
